@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+  datasource:
+    url: jdbc:mysql://localhost:3306/db01?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 4582872
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    host: 192.168.160.131
+    port: 6379
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: on
